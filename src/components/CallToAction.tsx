@@ -14,10 +14,6 @@ const CallToAction = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button className="bg-agency-accent hover:bg-agency-accent/90 text-white px-8 py-6 text-lg flex items-center">
-              Get a Free Quote
-              <ArrowRight size={20} className="ml-2" />
-            </Button>
             <Button className="bg-transparent border-2 border-white hover:bg-white/10 text-white px-8 py-6 text-lg">
               Schedule a Call
             </Button>

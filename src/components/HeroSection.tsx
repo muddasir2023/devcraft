@@ -20,9 +20,6 @@ const HeroSection = () => {
                 Book a Discovery Call
                 <ArrowRight size={18} className="ml-2" />
               </Button>
-              <Button className="btn-outline">
-                View Our Work
-              </Button>
             </div>
           </div>
           <div className="relative">

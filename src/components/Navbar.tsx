@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
-import { Button } from '@/components/ui/button';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -44,10 +43,6 @@ const Navbar = () => {
           <Link to="/contact" className="text-agency-blue hover:text-agency-accent font-medium transition-colors">Contact</Link>
         </div>
 
-        <div className="hidden md:block">
-          <Button className="btn-primary">Get a Quote</Button>
-        </div>
-
         {/* Mobile Menu Button */}
         <div className="md:hidden">
           <button onClick={toggleMenu} className="text-agency-blue p-2">
@@ -66,7 +61,6 @@ const Navbar = () => {
             <Link to="/portfolio" className="text-agency-blue hover:text-agency-accent font-medium py-2 transition-colors" onClick={toggleMenu}>Portfolio</Link>
             <Link to="/blog" className="text-agency-blue hover:text-agency-accent font-medium py-2 transition-colors" onClick={toggleMenu}>Blog</Link>
             <Link to="/contact" className="text-agency-blue hover:text-agency-accent font-medium py-2 transition-colors" onClick={toggleMenu}>Contact</Link>
-            <Button className="btn-primary w-full" onClick={toggleMenu}>Get a Quote</Button>
           </div>
         </div>
       )}
