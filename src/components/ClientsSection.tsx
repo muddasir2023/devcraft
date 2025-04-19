@@ -2,14 +2,13 @@
 import React from 'react';
 
 const ClientsSection = () => {
-  // In a real project, you would use actual client logos
   const clients = [
-    { name: "Tech Corp", logo: "https://via.placeholder.com/150x60?text=TechCorp" },
-    { name: "Innovate Inc", logo: "https://via.placeholder.com/150x60?text=InnovateInc" },
-    { name: "Digital Solutions", logo: "https://via.placeholder.com/150x60?text=DigitalSolutions" },
-    { name: "Web Systems", logo: "https://via.placeholder.com/150x60?text=WebSystems" },
-    { name: "App Factory", logo: "https://via.placeholder.com/150x60?text=AppFactory" },
-    { name: "Cloud Tech", logo: "https://via.placeholder.com/150x60?text=CloudTech" },
+    { name: "Tech Corp", logo: "https://images.unsplash.com/photo-1498050108023-c5249f4df085" },
+    { name: "Innovate Inc", logo: "https://images.unsplash.com/photo-1460925895917-afdab827c52f" },
+    { name: "Digital Solutions", logo: "https://images.unsplash.com/photo-1483058712412-4245e9b90334" },
+    { name: "Web Systems", logo: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d" },
+    { name: "App Factory", logo: "https://images.unsplash.com/photo-1460925895917-afdab827c52f" },
+    { name: "Cloud Tech", logo: "https://images.unsplash.com/photo-1498050108023-c5249f4df085" },
   ];
 
   return (
@@ -29,7 +28,7 @@ const ClientsSection = () => {
               <img 
                 src={client.logo} 
                 alt={`${client.name} logo`} 
-                className="h-12 max-w-[150px] object-contain"
+                className="h-12 max-w-[150px] object-cover opacity-70 hover:opacity-100"
               />
             </div>
           ))}
