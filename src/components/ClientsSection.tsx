@@ -3,12 +3,12 @@ import React from 'react';
 
 const ClientsSection = () => {
   const clients = [
-    { name: "Tech Corp", logo: "https://images.unsplash.com/photo-1498050108023-c5249f4df085" },
-    { name: "Innovate Inc", logo: "https://images.unsplash.com/photo-1460925895917-afdab827c52f" },
-    { name: "Digital Solutions", logo: "https://images.unsplash.com/photo-1483058712412-4245e9b90334" },
-    { name: "Web Systems", logo: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d" },
-    { name: "App Factory", logo: "https://images.unsplash.com/photo-1460925895917-afdab827c52f" },
-    { name: "Cloud Tech", logo: "https://images.unsplash.com/photo-1498050108023-c5249f4df085" },
+    { name: "TechVision Labs", logo: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7" }, // Colorful code display
+    { name: "Digital Innovate", logo: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81" }, // Modern tech displays
+    { name: "CreativeTech", logo: "https://images.unsplash.com/photo-1519389950473-47ba0277781c" }, // Modern workspace
+    { name: "SmartSolutions", logo: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b" }, // Laptop with vibrant display
+    { name: "NextGen Systems", logo: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158" }, // Modern tech setup
+    { name: "CloudForge", logo: "https://images.unsplash.com/photo-1531297484001-80022131f5a1" }, // Modern laptop display
   ];
 
   return (
@@ -28,7 +28,7 @@ const ClientsSection = () => {
               <img 
                 src={client.logo} 
                 alt={`${client.name} logo`} 
-                className="h-12 max-w-[150px] object-cover opacity-70 hover:opacity-100"
+                className="h-16 w-24 object-cover rounded-lg opacity-80 hover:opacity-100"
               />
             </div>
           ))}
@@ -39,3 +39,4 @@ const ClientsSection = () => {
 };
 
 export default ClientsSection;
+
