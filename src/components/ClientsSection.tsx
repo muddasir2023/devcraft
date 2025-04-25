@@ -23,13 +23,14 @@ const ClientsSection = () => {
           {clients.map((client, index) => (
             <div 
               key={index} 
-              className="grayscale hover:grayscale-0 transition-all duration-300 flex items-center justify-center"
+              className="flex flex-col items-center space-y-2"
             >
               <img 
                 src={client.logo} 
                 alt={`${client.name} logo`} 
-                className="h-16 w-24 object-cover rounded-lg opacity-80 hover:opacity-100"
+                className="h-16 w-24 object-cover rounded-lg"
               />
+              <span className="text-sm font-medium text-gray-700">{client.name}</span>
             </div>
           ))}
         </div>
