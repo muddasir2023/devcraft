@@ -1,11 +1,8 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram, Github } from 'lucide-react';
-
 const Footer = () => {
-  return (
-    <footer className="bg-agency-blue text-white">
+  return <footer className="bg-agency-blue text-white">
       <div className="container-custom pt-16 pb-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
@@ -65,15 +62,15 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin size={20} className="mr-2 mt-1 text-agency-accent" />
-                <span className="text-gray-300">123 Tech Street, Digital City, PC 12345</span>
+                <span className="text-gray-300">123 Tech Street, Digital City, PC 1234</span>
               </li>
               <li className="flex items-center">
                 <Phone size={20} className="mr-2 text-agency-accent" />
-                <a href="tel:+11234567890" className="text-gray-300 hover:text-agency-accent transition-colors">+1 (123) 456-7890</a>
+                <a href="tel:+11234567890" className="text-gray-300 hover:text-agency-accent transition-colors">+92 3490842023</a>
               </li>
               <li className="flex items-center">
                 <Mail size={20} className="mr-2 text-agency-accent" />
-                <a href="mailto:info@devcraft.com" className="text-gray-300 hover:text-agency-accent transition-colors">info@devcraft.com</a>
+                <a href="mailto:info@devcraft.com" className="text-gray-300 hover:text-agency-accent transition-colors">info@devcraftsolution.com</a>
               </li>
             </ul>
           </div>
@@ -88,8 +85,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
