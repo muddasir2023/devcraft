@@ -30,7 +30,7 @@ const Navbar = () => {
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-3' : 'bg-transparent py-5'}`}>
       <div className="container-custom flex justify-between items-center">
         <Link to="/" className="flex items-center">
-          <span className="text-2xl font-bold text-agency-blue">DevCraft<span className="text-agency-accent">.</span></span>
+          <span className="text-2xl font-bold text-agency-blue">:}DevCraft Solution<span className="text-agency-accent">.</span></span>
         </Link>
 
         {/* Desktop Menu */}
